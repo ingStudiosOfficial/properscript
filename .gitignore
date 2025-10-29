@@ -27,7 +27,7 @@ Thumbs.db
 *.swp
 *.swo
 
-# Lock files (optional - some people commit these)
+# Lock files
 package-lock.json
 
 # Temporary files
