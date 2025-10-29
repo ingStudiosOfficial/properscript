@@ -72,6 +72,6 @@ Example:
         process.exit(0);
 
     default:
-        console.error('Error: Please specify an available command');
+        console.error(`Error: ${command} is not a valid command.`);
         console.error('Hint: Run proper --h to find all commands');
 }
