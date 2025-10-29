@@ -1,7 +1,9 @@
-const pkg = require('./package.json');
+#!/usr/bin/env node
+
+const pkg = require('../package.json');
 const fs = require('fs');
 const path = require('path');
-const { transpile } = require('@properscript/compiler');
+const { transpile } = require('../lib/compiler.cjs');
 
 const args = process.argv.slice(2); // Takes user arguments
 const command = args[0];
@@ -66,7 +68,7 @@ Example:
                 return;
             }
         });
-        console.log(`Success: Successfully transpiled ${successfulTranspiles} out of ${inputFilePaths.length} files`);
+        console.log(`Success: Successfully compiled ${successfulTranspiles} out of ${inputFilePaths.length} files`);
         process.exit(0);
 
     default:

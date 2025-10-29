@@ -1,19 +1,35 @@
 {
   "name": "properscript",
   "version": "1.0.0",
-  "private": false,
+  "description": "JavaScript, but proper",
+  "main": "lib/compiler.cjs",
+  "bin": {
+    "proper": "./bin/cli.cjs"
+  },
   "scripts": {
     "test": "node tests/compiler.test.cjs"
   },
   "keywords": [
     "transpiler",
     "javascript",
-    "properscript"
+    "properscript",
+    "compiler",
+    "british"
   ],
   "author": "(ing) Studios and Ethan Lee",
   "license": "Apache-2.0",
-  "description": "JavaScript, but proper",
-  "workspaces": [
-    "packages/*"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ingStudiosOfficial/properscript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ingStudiosOfficial/properscript/issues"
+  },
+  "homepage": "https://github.com/ingStudiosOfficial/properscript#readme",
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md",
+    "LICENSE"
   ]
 }
