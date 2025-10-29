@@ -4,6 +4,8 @@
 
 <h1 align="center">ProperScript</h1>
 
+[![npm version](https://badge.fury.io/js/properscript.svg)](https://badge.fury.io/js/properscript)
+
 <p align="center">
   <strong>JavaScript, but proper.</strong><br>
   A delightfully British superset of JavaScript with more civilized keywords.

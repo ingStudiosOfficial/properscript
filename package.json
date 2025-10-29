@@ -1,7 +1,7 @@
 {
   "name": "properscript",
-  "version": "1.0.0",
-  "description": "JavaScript, but proper",
+  "version": "1.0.1",
+  "description": "JavaScript, but proper.",
   "main": "lib/compiler.cjs",
   "bin": {
     "proper": "./bin/cli.cjs"
