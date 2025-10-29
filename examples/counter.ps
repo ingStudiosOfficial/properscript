@@ -1,0 +1,13 @@
+persistent stopNum = 10;
+
+changeable count = 0
+
+heretofore {
+    whether (count === stopNum) {
+        goback;
+    }
+
+    announce('Current count:', count);
+
+    count++;
+}

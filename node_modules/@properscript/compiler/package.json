@@ -1,0 +1,8 @@
+{
+    "name": "@properscript/compiler",
+    "version": "1.0.0",
+    "description": "ProperScript to JavaScript compiler.",
+    "main": "index.cjs",
+    "license": "Apache-2.0",
+    "author": "(ing) Studios and Ethan Lee"
+}

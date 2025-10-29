@@ -1,0 +1,14 @@
+{
+    "name": "@properscript/cli",
+    "version": "1.0.0",
+    "description": "ProperScript command-line interface",
+    "main": "index.cjs",
+    "bin": {
+        "proper": "./index.cjs"
+    },
+    "dependencies": {
+        "@properscript/compiler": "file:../compiler"
+    },
+    "license": "Apache-2.0",
+    "author": "(ing) Studios and Ethan Lee"
+}

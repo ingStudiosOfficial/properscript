@@ -1,0 +1,19 @@
+{
+  "name": "properscript",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "test": "node tests/compiler.test.cjs"
+  },
+  "keywords": [
+    "transpiler",
+    "javascript",
+    "properscript"
+  ],
+  "author": "(ing) Studios and Ethan Lee",
+  "license": "Apache-2.0",
+  "description": "JavaScript, but proper",
+  "workspaces": [
+    "packages/*"
+  ]
+}
