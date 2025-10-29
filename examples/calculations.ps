@@ -1,0 +1,31 @@
+procedure add(val1, val2) {
+    goback val1 + val2;
+}
+
+procedure subtract(val1, val2) {
+    goback val1 - val2;
+}
+
+procedure multiply(val1, val2) {
+    goback val1 * val2;
+}
+
+procedure divide(val1, val2) {
+    goback val1 / val2;
+}
+
+// Test 1
+announce('Performing calculation 1...');
+announce('6 + 7 =', add(6, 7));
+
+// Test 2
+announce('Performing calculation 2...');
+announce('65 - 47 =', subtract(65, 47));
+
+// Test 3
+announce('Performing calculation 3...');
+announce('6 * 7 =', multiply(6, 7));
+
+// Test 4
+announce('Performing calculation 4...');
+announce('100 / 5 =', divide(100, 5));
