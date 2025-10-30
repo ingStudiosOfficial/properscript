@@ -137,7 +137,7 @@ Before submitting a pull request, make sure:
 
 ## 🎨 Code Style
 
-- Use consistent indentation (2 spaces)
+- Use consistent indentation (4 spaces)
 - Follow existing naming conventions
 - Keep keywords British/polite themed
 - Write clear, descriptive commit messages
