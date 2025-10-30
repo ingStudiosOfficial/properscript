@@ -2,7 +2,7 @@
     "name": "@properscript/runtime",
     "version": "1.0.0",
     "description": "Runtime helpers for ProperScript",
-    "main": "index.js",
+    "main": "runtime.cjs",
     "keywords": ["properscript", "runtime"],
     "author": "(ing) Studios and Ethan Lee",
     "license": "Apache-2.0"

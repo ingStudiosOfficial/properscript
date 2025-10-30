@@ -1,9 +1,7 @@
+const { slumber } = require('@properscript/runtime');
+
 const startMin = 2;
 const startSeconds = startMin * 60;
-
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 async function startTimer(duration) {
     console.log('Start:', duration);
@@ -12,7 +10,7 @@ async function startTimer(duration) {
     
     while (remaining > 0) {
         console.log('Count:', remaining);
-        await sleep(1000);
+        await slumber(1000);
         remaining--;
     }
     
