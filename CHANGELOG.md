@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5] - 2025-10-30
+
+### Added
+
+### Fixed
+- CRITICAL BUG FIXED (npm package not installing)
+
 ## [1.0.4] - 2025-10-30
 
 ### Added

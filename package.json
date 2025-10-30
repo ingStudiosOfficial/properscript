@@ -1,6 +1,6 @@
 {
   "name": "properscript",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JavaScript, but proper.",
   "main": "lib/compiler.cjs",
   "bin": {
@@ -33,6 +33,6 @@
     "LICENSE"
   ],
   "dependencies": {
-    "properscript": "file:properscript-1.0.4.tgz"
+    "@properscript/runtime": "^1.0.1"
   }
 }
