@@ -34,6 +34,10 @@ changeable message = "Hello, ProperScript!";
 announce(message);
 ```
 
+## Visual Studio Code Extension
+
+We have a Visual Studio Code extension to give you ProperScript IntelliSense. Check it out [here](https://marketplace.visualstudio.com/items?itemName=ingStudiosOfficial.properscript).
+
 2. Compile it:
 ```bash
 proper compile hello.ps
