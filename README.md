@@ -58,7 +58,7 @@ node hello.js
 | `persistent` | `const` | Immutable variable |
 | `announce` | `console.log` | Print to console |
 | `inform` | `console.warn` | Print warning |
-| `blunder` | `error` | Error |
+| `blunder` | `error` | Print error |
 | `sorry` | `error` | Error |
 | `terribly sorry` | `fatal error` | Fatal error message |
 | `queue` | `await` | Async await |

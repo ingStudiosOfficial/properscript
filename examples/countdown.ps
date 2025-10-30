@@ -1,0 +1,23 @@
+persistent startMin = 2;
+persistent startSeconds = startMin * 60;
+
+procedure sleep(ms) {
+    goback new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async procedure startTimer(duration) {
+    announce('Start:', duration);
+    
+    changeable remaining = duration;
+    
+    period (remaining > 0) {
+        announce('Count:', remaining);
+        queue sleep(1000);
+        remaining--;
+    }
+    
+    announce('Times up!');
+}
+
+// Start timer
+startTimer(startSeconds);
