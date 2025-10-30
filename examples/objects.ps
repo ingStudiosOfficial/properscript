@@ -1,0 +1,13 @@
+persistent foodToEmoji = {
+    'sushi': '🍣',
+    'ramen': '🍜',
+    'rice': '🍚',
+    'onigiri': '🍙',
+    'curry': '🍛'
+}
+
+persistent foods = Object.keys(foodToEmoji);
+
+foods.forEach((food, index) => {
+    announce(`${food}:`, foodToEmoji[food]);
+});

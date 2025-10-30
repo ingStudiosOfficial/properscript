@@ -76,7 +76,7 @@ For complete documentation, see [docs/](./docs/).
 ### Hello World
 
 **ProperScript** (`hello.ps`):
-```javascript
+```properscript
 persistent greeting = "Hello, World!";
 announce(greeting);
 ```
@@ -92,7 +92,7 @@ console.log(greeting);
 ### Counter with Loop
 
 **ProperScript** (`counter.ps`):
-```javascript
+```properscript
 persistent stopNum = 10;
 changeable count = 0;
 
@@ -126,7 +126,7 @@ while(true) {
 ### Async/Await
 
 **ProperScript** (`async.ps`):
-```javascript
+```properscript
 async function fetchData() {
   changeable response = queue fetch('https://api.example.com/data');
   changeable data = queue response.json();
@@ -156,7 +156,7 @@ fetchData()
 ### Error Handling
 
 **ProperScript** (`errors.ps`):
-```javascript
+```properscript
 try {
   throw new Error("terribly sorry");
 } catch (blunder) {
@@ -211,6 +211,8 @@ node packages/cli/index.cjs compile examples/hello.ps
 ```
 
 4. Submit a pull request
+
+See [CONTRIBUTING](./CONTRIBUTING.md) for more details.
 
 ## License
 

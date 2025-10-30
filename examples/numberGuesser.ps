@@ -1,0 +1,18 @@
+procedure getRandomInt(min, max) {
+    min = Math.ceil(min); // Ensure min is an integer
+    max = Math.floor(max); // Ensure max is an integer
+    goback Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+persistent minNum = 0;
+persistent maxNum = 10;
+
+persistent generatedRandomNumber = getRandomInt(minNum, maxNum);
+
+persistent guessedNum = 7; // Input the guessed number
+
+whether (guessedNum === generatedRandomNumber) {
+    announce('Guessed number is correct!');
+} else {
+    announce('Guessed number is incorrect!');
+}

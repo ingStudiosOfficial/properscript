@@ -1,4 +1,4 @@
-async function fetchData() {
+async procedure fetchData() {
     persistent response = queue fetch('https://jsonplaceholder.typicode.com/posts/1');
     persistent data = queue response.json();
     goback data;

@@ -1,0 +1,38 @@
+{
+  "name": "properscript",
+  "displayName": "ProperScript",
+  "description": "Syntax highlighting for ProperScript",
+  "version": "1.0.0",
+  "publisher": "ingStudios",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:properscript"
+  ],
+  "main": "./extension.cjs",
+  "contributes": {
+    "languages": [
+      {
+        "id": "properscript",
+        "aliases": ["ProperScript", "properscript"],
+        "extensions": [".ps"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "properscript",
+        "scopeName": "source.properscript",
+        "path": "./syntaxes/properscript.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/vscode": "^1.60.0"
+  }
+}
