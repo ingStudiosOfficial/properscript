@@ -32,7 +32,7 @@
       "patterns": [
         {
           "name": "keyword.control.properscript",
-          "match": "\\b(whether|period|heretofore|changeover|goback|visit)\\b"
+          "match": "\\b(whether|period|heretofore|changeover|goback|visit|respectively)\\b"
         },
         {
           "name": "storage.type.properscript",

@@ -71,6 +71,7 @@ node hello.js
 | `heretofore` | `while(true)` | Infinite loop |
 | `changeover` | `switch` | Switch statement |
 | `goback` | `return` | Return statement |
+| `respectively` | `for` | For loop |
 | `visit` | `goto` | Goto statement |
 
 For complete documentation, see [docs/](./docs/).
