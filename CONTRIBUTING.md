@@ -62,7 +62,7 @@ Add your keyword to the appropriate pattern group:
 
 ### Step 3: Update VS Code Autocomplete
 
-**Edit `vscode-properscript/extension.js`:**
+**Edit `vscode-properscript/extension.cjs`:**
 
 Add your keyword to the `KEYWORDS` object:
 ```javascript
