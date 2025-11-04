@@ -26,6 +26,7 @@ function activate(context) {
 		'period': 'while',
 		'changeover': 'switch',
 		'goback': 'return',
+		'respectively': 'for',
 		
 		// Output
 		'announce': 'console.log',
@@ -119,7 +120,7 @@ function getCompletionKind(keyword) {
 	const categories = {
 		variables: ['changeable', 'persistent'],
 		functions: ['procedure', 'announce', 'inform'],
-		controlFlow: ['whether', 'period', 'changeover', 'goback', 'visit'],
+		controlFlow: ['whether', 'period', 'changeover', 'goback', 'visit', 'respectively'],
 		async: ['queue', 'please'],
 		values: ['correct', 'mistaken'],
 		modules: ['acquire'],
